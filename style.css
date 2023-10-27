@@ -1,0 +1,44 @@
+.container {
+text-align: center;
+background-color: plum;
+font-size: large;
+}
+
+.hero {
+   font-size: large;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  padding: 0%;
+  box-sizing: content-box;
+justify-items: center;
+min-width: 100%;
+background-repeat: no-repeat;
+background-image: url(./images/pexels-jae-park-3802510.jpg);
+text-align: center;
+
+}
+.div {
+  text-align: center;
+}
+.img-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.img {
+  width: calc(33.33% - 20px);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.img img {
+  width: 90%;
+  height: 190px;
+  border-radius: 15px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
